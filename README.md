@@ -47,6 +47,8 @@ source ~/.bashrc
 roslaunch racecar_gazebo racecar_runway.launch
 ```
 
+![1](https://user-images.githubusercontent.com/26653172/170944302-b99881db-936f-4168-bba8-6378350f2b26.png)
+
 You should download the gazebo models or the map won't work.
 
 ```bash
@@ -57,7 +59,10 @@ git clone https://github.com/osrf/gazebo_models.git ~/.gazebo/models
 ```bash
 roslaunch racecar_gazebo slam_gmapping.launch 
 ```
+
 Control the car with WASD keys and draw the whole map.
+
+![2](https://user-images.githubusercontent.com/26653172/170944385-2b7a32f2-0e87-47d5-8b5c-52874e1bd9e4.png)
 
 6. Save the map
 ```bash
@@ -77,12 +82,16 @@ roslaunch racecar_gazebo racecar_runway_navigation.launch
 roslaunch racecar_gazebo racecar_rviz.launch
 ```
 
+![3](https://user-images.githubusercontent.com/26653172/170944487-3984d093-f43e-429a-95ac-0cd4114e5fc1.png)
+
 3. Click `2D Nav Goal` then click the goal on the rviz map (hold down the cursor to set the goal pose)
 
 4. Start the navigation script
 ```bash
 rosrun racecar_gazebo path_pursuit.py
 ```
+
+![4](https://user-images.githubusercontent.com/26653172/170944551-d4fa12c8-7ea1-4af8-9c7a-bd75deb8a7ea.png)
 
 ## FAQ
 
