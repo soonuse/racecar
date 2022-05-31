@@ -4,6 +4,8 @@ Gazebo 3D simulator example of ROS tutorials (version: Noetic)
 
 Tested on Ubuntu 20.04
 
+For more detail, see https://www.bilibili.com/video/BV1da411j72x
+
 ## Dependencies
 
 ```bash
